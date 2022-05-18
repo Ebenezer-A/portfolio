@@ -1,15 +1,23 @@
 nav {
     float: right;
-    clear: right;
+    clear: both;
     color: #ffffff;
     font-family: monospace;
     font-size: 15px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+nav img {
+    width: 35px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .sidebar {
     float: left;
     background-color: #233554;
-    padding-bottom: 100%;
+    padding-bottom: 40%;
     padding-right: 10px;;
 }
 
@@ -20,24 +28,26 @@ nav {
 .sidebar ul a{
     color: #57cbff;
     text-decoration: none;
+    font-family: monospace;
+    font-size: 18px;
 }
 
 .mainbody {
     color: #57cbff;
     background-color: #0a192f;
-    padding-bottom: 100%;
-    padding-top: 100px;
+    padding-bottom: 20%;
+    padding-top: 20%;
 }
 
 .p1 {
     font-size: 20px;
     font-family: monospace;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 15px;
 }
 
 .p2 {
-    font-size: 50px;
+    font-size: clamp(40px, 8vw, 80px);
     font-family: monospace;
     color: #e6f1ff;
     margin-bottom: 25px;
